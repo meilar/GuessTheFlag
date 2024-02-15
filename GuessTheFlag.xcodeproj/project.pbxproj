@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		0BB7EEC12B7EC9AB00B08472 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7EEC02B7EC9AB00B08472 /* GuessTheFlagApp.swift */; };
 		0BB7EEC32B7EC9AB00B08472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7EEC22B7EC9AB00B08472 /* ContentView.swift */; };
-		0BB7EEC52B7EC9AC00B08472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB7EEC42B7EC9AC00B08472 /* Assets.xcassets */; };
 		0BB7EEC82B7EC9AC00B08472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB7EEC72B7EC9AC00B08472 /* Preview Assets.xcassets */; };
+		0BB7EECF2B7ED34400B08472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB7EECE2B7ED34400B08472 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BB7EEBD2B7EC9AB00B08472 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB7EEC02B7EC9AB00B08472 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		0BB7EEC22B7EC9AB00B08472 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0BB7EEC42B7EC9AC00B08472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB7EEC72B7EC9AC00B08472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BB7EECE2B7ED34400B08472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/HackingWithSwift-main/SwiftUI/project2/GuessTheFlag/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				0BB7EEC02B7EC9AB00B08472 /* GuessTheFlagApp.swift */,
 				0BB7EEC22B7EC9AB00B08472 /* ContentView.swift */,
-				0BB7EEC42B7EC9AC00B08472 /* Assets.xcassets */,
+				0BB7EECE2B7ED34400B08472 /* Assets.xcassets */,
 				0BB7EEC62B7EC9AC00B08472 /* Preview Content */,
 			);
 			path = GuessTheFlag;
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB7EEC82B7EC9AC00B08472 /* Preview Assets.xcassets in Resources */,
-				0BB7EEC52B7EC9AC00B08472 /* Assets.xcassets in Resources */,
+				0BB7EECF2B7ED34400B08472 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
