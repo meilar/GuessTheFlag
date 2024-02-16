@@ -17,6 +17,8 @@ struct ContentView: View {
     
     @State private var scoreTitle = ""
     
+    @State private var score = 0
+    
     var body: some View {
         ZStack {
             RadialGradient(stops: [
@@ -31,7 +33,7 @@ struct ContentView: View {
                     .foregroundStyle(.white)
                 Spacer()
                 Spacer()
-            Text("Score: ???")
+            Text("Score:  \(score)")
                     .font(.title.weight(.bold))
                     .foregroundStyle(.white)
                 Spacer()
@@ -57,7 +59,7 @@ struct ContentView: View {
                 .alert(scoreTitle, isPresented: $showingScore) {
                     Button("Continue", action: askQuestion)
                 } message: {
-                    Text("Your score is ???")
+                    Text("Let's do another round")
                 }
             }}
     }
@@ -65,8 +67,10 @@ struct ContentView: View {
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Good work, little slut"
+            score += 1
         } else {
             scoreTitle = "Way wrong, bucko"
+            score -= 1
         }
         showingScore = true
     }
